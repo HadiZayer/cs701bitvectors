@@ -1,0 +1,1027 @@
+The system is: Darwin - 22.1.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-6ZvwlP
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_47f6f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_47f6f.dir/build.make CMakeFiles/cmTC_47f6f.dir/build
+Building C object CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-6ZvwlP -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.1.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_47f6f
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47f6f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -o cmTC_47f6f 
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o cmTC_47f6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:05 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-6ZvwlP]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_47f6f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_47f6f.dir/build.make CMakeFiles/cmTC_47f6f.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.1.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-6ZvwlP -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.1.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_47f6f]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47f6f.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -o cmTC_47f6f ]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.1.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o cmTC_47f6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_47f6f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_47f6f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-D9oX0o
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ed2ed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed2ed.dir/build.make CMakeFiles/cmTC_ed2ed.dir/build
+Building CXX object CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-D9oX0o -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.1.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_ed2ed
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed2ed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed2ed 
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o cmTC_ed2ed -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:05 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-D9oX0o]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ed2ed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed2ed.dir/build.make CMakeFiles/cmTC_ed2ed.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.1.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-D9oX0o -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.1.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_ed2ed]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed2ed.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed2ed ]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.1.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o cmTC_ed2ed -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ed2ed] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ed2ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-akwjY2
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_54c4f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_54c4f.dir/build.make CMakeFiles/cmTC_54c4f.dir/build
+Building CXX object CMakeFiles/cmTC_54c4f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_54c4f.dir/src.cxx.o -MF CMakeFiles/cmTC_54c4f.dir/src.cxx.o.d -o CMakeFiles/cmTC_54c4f.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-akwjY2/src.cxx
+Linking CXX executable cmTC_54c4f
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54c4f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_54c4f.dir/src.cxx.o -o cmTC_54c4f 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-oCQJ0H
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_166ab/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_166ab.dir/build.make CMakeFiles/cmTC_166ab.dir/build
+Building CXX object CMakeFiles/cmTC_166ab.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_166ab.dir/src.cxx.o -MF CMakeFiles/cmTC_166ab.dir/src.cxx.o.d -o CMakeFiles/cmTC_166ab.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-oCQJ0H/src.cxx
+Linking CXX executable cmTC_166ab
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_166ab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_166ab.dir/src.cxx.o -o cmTC_166ab 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-cqiIMJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6e58c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6e58c.dir/build.make CMakeFiles/cmTC_6e58c.dir/build
+Building CXX object CMakeFiles/cmTC_6e58c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_6e58c.dir/src.cxx.o -MF CMakeFiles/cmTC_6e58c.dir/src.cxx.o.d -o CMakeFiles/cmTC_6e58c.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-cqiIMJ/src.cxx
+Linking CXX executable cmTC_6e58c
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e58c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6e58c.dir/src.cxx.o -o cmTC_6e58c 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test HAVE_UNKNOWN_WALL succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-YUi7co
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_facca/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_facca.dir/build.make CMakeFiles/cmTC_facca.dir/build
+Building C object CMakeFiles/cmTC_facca.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_UNKNOWN_WALL  -Wall -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_facca.dir/src.c.o -MF CMakeFiles/cmTC_facca.dir/src.c.o.d -o CMakeFiles/cmTC_facca.dir/src.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-YUi7co/src.c
+Linking C executable cmTC_facca
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_facca.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_facca.dir/src.c.o -o cmTC_facca 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test HAVE_UNKNOWN_FOMIT_FRAME_POINTER succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-1GZhNN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f1566/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f1566.dir/build.make CMakeFiles/cmTC_f1566.dir/build
+Building C object CMakeFiles/cmTC_f1566.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_UNKNOWN_FOMIT_FRAME_POINTER  -Wall -fomit-frame-pointer -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_f1566.dir/src.c.o -MF CMakeFiles/cmTC_f1566.dir/src.c.o.d -o CMakeFiles/cmTC_f1566.dir/src.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-1GZhNN/src.c
+Linking C executable cmTC_f1566
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1566.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall -fomit-frame-pointer -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f1566.dir/src.c.o -o cmTC_f1566 
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-tvZcB9
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c64af/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c64af.dir/build.make CMakeFiles/cmTC_c64af.dir/build
+Building C object CMakeFiles/cmTC_c64af.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_c64af.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c64af.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c64af.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-tvZcB9/CheckIncludeFile.c
+Linking C executable cmTC_c64af
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c64af.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c64af.dir/CheckIncludeFile.c.o -o cmTC_c64af 
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-rYYTjH
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a77bb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a77bb.dir/build.make CMakeFiles/cmTC_a77bb.dir/build
+Building C object CMakeFiles/cmTC_a77bb.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_a77bb.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a77bb.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a77bb.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-rYYTjH/CheckIncludeFile.c
+Linking C executable cmTC_a77bb
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a77bb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a77bb.dir/CheckIncludeFile.c.o -o cmTC_a77bb 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-Zgd2nI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cfbd0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cfbd0.dir/build.make CMakeFiles/cmTC_cfbd0.dir/build
+Building C object CMakeFiles/cmTC_cfbd0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_cfbd0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cfbd0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cfbd0.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-Zgd2nI/CheckIncludeFile.c
+Linking C executable cmTC_cfbd0
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfbd0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cfbd0.dir/CheckIncludeFile.c.o -o cmTC_cfbd0 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-t8NmwY
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d72c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5d72c.dir/build.make CMakeFiles/cmTC_5d72c.dir/build
+Building C object CMakeFiles/cmTC_5d72c.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_5d72c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5d72c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5d72c.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-t8NmwY/CheckIncludeFile.c
+Linking C executable cmTC_5d72c
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d72c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5d72c.dir/CheckIncludeFile.c.o -o cmTC_5d72c 
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-LvzYQ6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f9068/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f9068.dir/build.make CMakeFiles/cmTC_f9068.dir/build
+Building C object CMakeFiles/cmTC_f9068.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_f9068.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f9068.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f9068.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-LvzYQ6/CheckIncludeFile.c
+Linking C executable cmTC_f9068
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9068.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f9068.dir/CheckIncludeFile.c.o -o cmTC_f9068 
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-vrkF5Q
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c398b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c398b.dir/build.make CMakeFiles/cmTC_c398b.dir/build
+Building C object CMakeFiles/cmTC_c398b.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_c398b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c398b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c398b.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-vrkF5Q/CheckIncludeFile.c
+Linking C executable cmTC_c398b
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c398b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c398b.dir/CheckIncludeFile.c.o -o cmTC_c398b 
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-BbN5SZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1bfdf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1bfdf.dir/build.make CMakeFiles/cmTC_1bfdf.dir/build
+Building C object CMakeFiles/cmTC_1bfdf.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_1bfdf.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1bfdf.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1bfdf.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-BbN5SZ/CheckIncludeFile.c
+Linking C executable cmTC_1bfdf
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bfdf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1bfdf.dir/CheckIncludeFile.c.o -o cmTC_1bfdf 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-yVzb6F
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8de17/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8de17.dir/build.make CMakeFiles/cmTC_8de17.dir/build
+Building C object CMakeFiles/cmTC_8de17.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_8de17.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8de17.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8de17.dir/CheckIncludeFile.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-yVzb6F/CheckIncludeFile.c
+Linking C executable cmTC_8de17
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8de17.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8de17.dir/CheckIncludeFile.c.o -o cmTC_8de17 
+
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-GK17Ps
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de08b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_de08b.dir/build.make CMakeFiles/cmTC_de08b.dir/build
+Building C object CMakeFiles/cmTC_de08b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_INLINE  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_de08b.dir/src.c.o -MF CMakeFiles/cmTC_de08b.dir/src.c.o.d -o CMakeFiles/cmTC_de08b.dir/src.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-GK17Ps/src.c
+Linking C executable cmTC_de08b
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de08b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_de08b.dir/src.c.o -o cmTC_de08b 
+
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+
+Performing C SOURCE FILE Test HAVE___INLINE succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-5n0Np0
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_276b4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_276b4.dir/build.make CMakeFiles/cmTC_276b4.dir/build
+Building C object CMakeFiles/cmTC_276b4.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE___INLINE  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_276b4.dir/src.c.o -MF CMakeFiles/cmTC_276b4.dir/src.c.o.d -o CMakeFiles/cmTC_276b4.dir/src.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-5n0Np0/src.c
+Linking C executable cmTC_276b4
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_276b4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_276b4.dir/src.c.o -o cmTC_276b4 
+
+
+Source file was:
+__inline void func(); void func() { } int main() { func(); return 0; }
+
+Performing C SOURCE FILE Test HAVE___INLINE__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-VHvO8O
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ff67/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1ff67.dir/build.make CMakeFiles/cmTC_1ff67.dir/build
+Building C object CMakeFiles/cmTC_1ff67.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE___INLINE__  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_1ff67.dir/src.c.o -MF CMakeFiles/cmTC_1ff67.dir/src.c.o.d -o CMakeFiles/cmTC_1ff67.dir/src.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-VHvO8O/src.c
+Linking C executable cmTC_1ff67
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ff67.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1ff67.dir/src.c.o -o cmTC_1ff67 
+
+
+Source file was:
+__inline__ void func(); void func() { } int main() { func(); return 0; }
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-b0Ir2l
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_49f08/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_49f08.dir/build.make CMakeFiles/cmTC_49f08.dir/build
+Building C object CMakeFiles/cmTC_49f08.dir/UINT8_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_49f08.dir/UINT8_T.c.o -MF CMakeFiles/cmTC_49f08.dir/UINT8_T.c.o.d -o CMakeFiles/cmTC_49f08.dir/UINT8_T.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-b0Ir2l/UINT8_T.c
+Linking C executable cmTC_49f08
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f08.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_49f08.dir/UINT8_T.c.o -o cmTC_49f08 
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-yfHupv
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f3d74/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f3d74.dir/build.make CMakeFiles/cmTC_f3d74.dir/build
+Building C object CMakeFiles/cmTC_f3d74.dir/INT32_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_f3d74.dir/INT32_T.c.o -MF CMakeFiles/cmTC_f3d74.dir/INT32_T.c.o.d -o CMakeFiles/cmTC_f3d74.dir/INT32_T.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-yfHupv/INT32_T.c
+Linking C executable cmTC_f3d74
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d74.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f3d74.dir/INT32_T.c.o -o cmTC_f3d74 
+
+
+
+Determining if the PRId32 exist passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-0Vdz9U
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_73e9e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_73e9e.dir/build.make CMakeFiles/cmTC_73e9e.dir/build
+Building C object CMakeFiles/cmTC_73e9e.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_73e9e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_73e9e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_73e9e.dir/CheckSymbolExists.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-0Vdz9U/CheckSymbolExists.c
+Linking C executable cmTC_73e9e
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e9e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_73e9e.dir/CheckSymbolExists.c.o -o cmTC_73e9e 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRId32
+  return ((int*)(&PRId32))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of int64_t passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-Cepqc5
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2f5ce/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2f5ce.dir/build.make CMakeFiles/cmTC_2f5ce.dir/build
+Building C object CMakeFiles/cmTC_2f5ce.dir/INT64_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_2f5ce.dir/INT64_T.c.o -MF CMakeFiles/cmTC_2f5ce.dir/INT64_T.c.o.d -o CMakeFiles/cmTC_2f5ce.dir/INT64_T.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-Cepqc5/INT64_T.c
+Linking C executable cmTC_2f5ce
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f5ce.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2f5ce.dir/INT64_T.c.o -o cmTC_2f5ce 
+
+
+
+Determining if the PRId64 exist passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-qgZtxy
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d57d2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d57d2.dir/build.make CMakeFiles/cmTC_d57d2.dir/build
+Building C object CMakeFiles/cmTC_d57d2.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_d57d2.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d57d2.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d57d2.dir/CheckSymbolExists.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-qgZtxy/CheckSymbolExists.c
+Linking C executable cmTC_d57d2
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d57d2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d57d2.dir/CheckSymbolExists.c.o -o cmTC_d57d2 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRId64
+  return ((int*)(&PRId64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-flyXP1
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_252da/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_252da.dir/build.make CMakeFiles/cmTC_252da.dir/build
+Building C object CMakeFiles/cmTC_252da.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_252da.dir/src.c.o -MF CMakeFiles/cmTC_252da.dir/src.c.o.d -o CMakeFiles/cmTC_252da.dir/src.c.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-flyXP1/src.c
+Linking C executable cmTC_252da
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_252da.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_252da.dir/src.c.o -o cmTC_252da 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the include file cstdio exists passed with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-cSeMj9
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cd3c2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cd3c2.dir/build.make CMakeFiles/cmTC_cd3c2.dir/build
+Building CXX object CMakeFiles/cmTC_cd3c2.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11 -DNDEBUG -stdlib=libc++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_cd3c2.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_cd3c2.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_cd3c2.dir/CheckIncludeFile.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-cSeMj9/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cd3c2
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd3c2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cd3c2.dir/CheckIncludeFile.cxx.o -o cmTC_cd3c2 
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-QbvfnZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dd730/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dd730.dir/build.make CMakeFiles/cmTC_dd730.dir/build
+Building CXX object CMakeFiles/cmTC_dd730.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_dd730.dir/src.cxx.o -MF CMakeFiles/cmTC_dd730.dir/src.cxx.o.d -o CMakeFiles/cmTC_dd730.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-QbvfnZ/src.cxx
+Linking CXX executable cmTC_dd730
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd730.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dd730.dir/src.cxx.o -o cmTC_dd730 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-nlJRuK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6fb04/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6fb04.dir/build.make CMakeFiles/cmTC_6fb04.dir/build
+Building CXX object CMakeFiles/cmTC_6fb04.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_6fb04.dir/src.cxx.o -MF CMakeFiles/cmTC_6fb04.dir/src.cxx.o.d -o CMakeFiles/cmTC_6fb04.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-nlJRuK/src.cxx
+Linking CXX executable cmTC_6fb04
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fb04.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6fb04.dir/src.cxx.o -o cmTC_6fb04 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-cwosRI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1693f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1693f.dir/build.make CMakeFiles/cmTC_1693f.dir/build
+Building CXX object CMakeFiles/cmTC_1693f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_1693f.dir/src.cxx.o -MF CMakeFiles/cmTC_1693f.dir/src.cxx.o.d -o CMakeFiles/cmTC_1693f.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-cwosRI/src.cxx
+Linking CXX executable cmTC_1693f
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1693f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1693f.dir/src.cxx.o -o cmTC_1693f 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-jaTjjr
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b8f7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3b8f7.dir/build.make CMakeFiles/cmTC_3b8f7.dir/build
+Building CXX object CMakeFiles/cmTC_3b8f7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_3b8f7.dir/src.cxx.o -MF CMakeFiles/cmTC_3b8f7.dir/src.cxx.o.d -o CMakeFiles/cmTC_3b8f7.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-jaTjjr/src.cxx
+Linking CXX executable cmTC_3b8f7
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b8f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b8f7.dir/src.cxx.o -o cmTC_3b8f7 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-uhpqRu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a5305/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a5305.dir/build.make CMakeFiles/cmTC_a5305.dir/build
+Building CXX object CMakeFiles/cmTC_a5305.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_a5305.dir/src.cxx.o -MF CMakeFiles/cmTC_a5305.dir/src.cxx.o.d -o CMakeFiles/cmTC_a5305.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-uhpqRu/src.cxx
+Linking CXX executable cmTC_a5305
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5305.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a5305.dir/src.cxx.o -o cmTC_a5305 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-VV7XEY
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf08a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cf08a.dir/build.make CMakeFiles/cmTC_cf08a.dir/build
+Building CXX object CMakeFiles/cmTC_cf08a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_cf08a.dir/src.cxx.o -MF CMakeFiles/cmTC_cf08a.dir/src.cxx.o.d -o CMakeFiles/cmTC_cf08a.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-VV7XEY/src.cxx
+Linking CXX executable cmTC_cf08a
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf08a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cf08a.dir/src.cxx.o -o cmTC_cf08a 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-mXAowA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_88a8f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_88a8f.dir/build.make CMakeFiles/cmTC_88a8f.dir/build
+Building CXX object CMakeFiles/cmTC_88a8f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_88a8f.dir/src.cxx.o -MF CMakeFiles/cmTC_88a8f.dir/src.cxx.o.d -o CMakeFiles/cmTC_88a8f.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-mXAowA/src.cxx
+Linking CXX executable cmTC_88a8f
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88a8f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_88a8f.dir/src.cxx.o -o cmTC_88a8f 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-ATVoeZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a77e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6a77e.dir/build.make CMakeFiles/cmTC_6a77e.dir/build
+Building CXX object CMakeFiles/cmTC_6a77e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_6a77e.dir/src.cxx.o -MF CMakeFiles/cmTC_6a77e.dir/src.cxx.o.d -o CMakeFiles/cmTC_6a77e.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-ATVoeZ/src.cxx
+Linking CXX executable cmTC_6a77e
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a77e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6a77e.dir/src.cxx.o -o cmTC_6a77e 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-YEmGjq
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a812a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a812a.dir/build.make CMakeFiles/cmTC_a812a.dir/build
+Building CXX object CMakeFiles/cmTC_a812a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_a812a.dir/src.cxx.o -MF CMakeFiles/cmTC_a812a.dir/src.cxx.o.d -o CMakeFiles/cmTC_a812a.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-YEmGjq/src.cxx
+Linking CXX executable cmTC_a812a
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a812a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a812a.dir/src.cxx.o -o cmTC_a812a 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-sD232h
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_067c3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_067c3.dir/build.make CMakeFiles/cmTC_067c3.dir/build
+Building CXX object CMakeFiles/cmTC_067c3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_067c3.dir/src.cxx.o -MF CMakeFiles/cmTC_067c3.dir/src.cxx.o.d -o CMakeFiles/cmTC_067c3.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-sD232h/src.cxx
+Linking CXX executable cmTC_067c3
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_067c3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_067c3.dir/src.cxx.o -o cmTC_067c3 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-4AEUwm
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0dea/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d0dea.dir/build.make CMakeFiles/cmTC_d0dea.dir/build
+Building CXX object CMakeFiles/cmTC_d0dea.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_d0dea.dir/src.cxx.o -MF CMakeFiles/cmTC_d0dea.dir/src.cxx.o.d -o CMakeFiles/cmTC_d0dea.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-4AEUwm/src.cxx
+Linking CXX executable cmTC_d0dea
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dea.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0dea.dir/src.cxx.o -o cmTC_d0dea 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-bTY1oN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24ea1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_24ea1.dir/build.make CMakeFiles/cmTC_24ea1.dir/build
+Building CXX object CMakeFiles/cmTC_24ea1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_24ea1.dir/src.cxx.o -MF CMakeFiles/cmTC_24ea1.dir/src.cxx.o.d -o CMakeFiles/cmTC_24ea1.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-bTY1oN/src.cxx
+Linking CXX executable cmTC_24ea1
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24ea1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_24ea1.dir/src.cxx.o -o cmTC_24ea1 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-K3Ssho
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35b23/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_35b23.dir/build.make CMakeFiles/cmTC_35b23.dir/build
+Building CXX object CMakeFiles/cmTC_35b23.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_35b23.dir/src.cxx.o -MF CMakeFiles/cmTC_35b23.dir/src.cxx.o.d -o CMakeFiles/cmTC_35b23.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-K3Ssho/src.cxx
+Linking CXX executable cmTC_35b23
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35b23.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35b23.dir/src.cxx.o -o cmTC_35b23 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-x6p2VR
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_387e7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_387e7.dir/build.make CMakeFiles/cmTC_387e7.dir/build
+Building CXX object CMakeFiles/cmTC_387e7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_387e7.dir/src.cxx.o -MF CMakeFiles/cmTC_387e7.dir/src.cxx.o.d -o CMakeFiles/cmTC_387e7.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-x6p2VR/src.cxx
+Linking CXX executable cmTC_387e7
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387e7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_387e7.dir/src.cxx.o -o cmTC_387e7 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-zJO4KD
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_86657/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_86657.dir/build.make CMakeFiles/cmTC_86657.dir/build
+Building CXX object CMakeFiles/cmTC_86657.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_86657.dir/src.cxx.o -MF CMakeFiles/cmTC_86657.dir/src.cxx.o.d -o CMakeFiles/cmTC_86657.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-zJO4KD/src.cxx
+Linking CXX executable cmTC_86657
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86657.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_86657.dir/src.cxx.o -o cmTC_86657 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-v8xgjh
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d843/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6d843.dir/build.make CMakeFiles/cmTC_6d843.dir/build
+Building CXX object CMakeFiles/cmTC_6d843.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_6d843.dir/src.cxx.o -MF CMakeFiles/cmTC_6d843.dir/src.cxx.o.d -o CMakeFiles/cmTC_6d843.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-v8xgjh/src.cxx
+Linking CXX executable cmTC_6d843
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d843.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6d843.dir/src.cxx.o -o cmTC_6d843 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-uVoVum
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb4c2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bb4c2.dir/build.make CMakeFiles/cmTC_bb4c2.dir/build
+Building CXX object CMakeFiles/cmTC_bb4c2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_bb4c2.dir/src.cxx.o -MF CMakeFiles/cmTC_bb4c2.dir/src.cxx.o.d -o CMakeFiles/cmTC_bb4c2.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-uVoVum/src.cxx
+Linking CXX executable cmTC_bb4c2
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb4c2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bb4c2.dir/src.cxx.o -o cmTC_bb4c2 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-oA0yXl
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2543c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2543c.dir/build.make CMakeFiles/cmTC_2543c.dir/build
+Building CXX object CMakeFiles/cmTC_2543c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_2543c.dir/src.cxx.o -MF CMakeFiles/cmTC_2543c.dir/src.cxx.o.d -o CMakeFiles/cmTC_2543c.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-oA0yXl/src.cxx
+Linking CXX executable cmTC_2543c
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2543c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2543c.dir/src.cxx.o -o cmTC_2543c 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-3ATXBs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ac0d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9ac0d.dir/build.make CMakeFiles/cmTC_9ac0d.dir/build
+Building CXX object CMakeFiles/cmTC_9ac0d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_9ac0d.dir/src.cxx.o -MF CMakeFiles/cmTC_9ac0d.dir/src.cxx.o.d -o CMakeFiles/cmTC_9ac0d.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-3ATXBs/src.cxx
+Linking CXX executable cmTC_9ac0d
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ac0d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9ac0d.dir/src.cxx.o -o cmTC_9ac0d 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-H7hld9
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ec947/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ec947.dir/build.make CMakeFiles/cmTC_ec947.dir/build
+Building CXX object CMakeFiles/cmTC_ec947.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_ec947.dir/src.cxx.o -MF CMakeFiles/cmTC_ec947.dir/src.cxx.o.d -o CMakeFiles/cmTC_ec947.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-H7hld9/src.cxx
+Linking CXX executable cmTC_ec947
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec947.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ec947.dir/src.cxx.o -o cmTC_ec947 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-6dkejI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d23b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1d23b.dir/build.make CMakeFiles/cmTC_1d23b.dir/build
+Building CXX object CMakeFiles/cmTC_1d23b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_1d23b.dir/src.cxx.o -MF CMakeFiles/cmTC_1d23b.dir/src.cxx.o.d -o CMakeFiles/cmTC_1d23b.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-6dkejI/src.cxx
+Linking CXX executable cmTC_1d23b
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d23b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d23b.dir/src.cxx.o -o cmTC_1d23b 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-wWEXhF
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d507/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9d507.dir/build.make CMakeFiles/cmTC_9d507.dir/build
+Building CXX object CMakeFiles/cmTC_9d507.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_9d507.dir/src.cxx.o -MF CMakeFiles/cmTC_9d507.dir/src.cxx.o.d -o CMakeFiles/cmTC_9d507.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-wWEXhF/src.cxx
+Linking CXX executable cmTC_9d507
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d507.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9d507.dir/src.cxx.o -o cmTC_9d507 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-lsinA3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c12c4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c12c4.dir/build.make CMakeFiles/cmTC_c12c4.dir/build
+Building CXX object CMakeFiles/cmTC_c12c4.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_c12c4.dir/src.cxx.o -MF CMakeFiles/cmTC_c12c4.dir/src.cxx.o.d -o CMakeFiles/cmTC_c12c4.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-lsinA3/src.cxx
+Linking CXX executable cmTC_c12c4
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c12c4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c12c4.dir/src.cxx.o -o cmTC_c12c4 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-7dWGp6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da0bb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_da0bb.dir/build.make CMakeFiles/cmTC_da0bb.dir/build
+Building CXX object CMakeFiles/cmTC_da0bb.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_da0bb.dir/src.cxx.o -MF CMakeFiles/cmTC_da0bb.dir/src.cxx.o.d -o CMakeFiles/cmTC_da0bb.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-7dWGp6/src.cxx
+Linking CXX executable cmTC_da0bb
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da0bb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_da0bb.dir/src.cxx.o -o cmTC_da0bb 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-7KAPRC
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bed69/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bed69.dir/build.make CMakeFiles/cmTC_bed69.dir/build
+Building CXX object CMakeFiles/cmTC_bed69.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_bed69.dir/src.cxx.o -MF CMakeFiles/cmTC_bed69.dir/src.cxx.o.d -o CMakeFiles/cmTC_bed69.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-7KAPRC/src.cxx
+Linking CXX executable cmTC_bed69
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bed69.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bed69.dir/src.cxx.o -o cmTC_bed69 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-vy1FCM
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_34376/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_34376.dir/build.make CMakeFiles/cmTC_34376.dir/build
+Building CXX object CMakeFiles/cmTC_34376.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_34376.dir/src.cxx.o -MF CMakeFiles/cmTC_34376.dir/src.cxx.o.d -o CMakeFiles/cmTC_34376.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-vy1FCM/src.cxx
+Linking CXX executable cmTC_34376
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34376.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_34376.dir/src.cxx.o -o cmTC_34376 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-qnFeQh
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e32ef/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e32ef.dir/build.make CMakeFiles/cmTC_e32ef.dir/build
+Building CXX object CMakeFiles/cmTC_e32ef.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_e32ef.dir/src.cxx.o -MF CMakeFiles/cmTC_e32ef.dir/src.cxx.o.d -o CMakeFiles/cmTC_e32ef.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-qnFeQh/src.cxx
+Linking CXX executable cmTC_e32ef
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e32ef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e32ef.dir/src.cxx.o -o cmTC_e32ef 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-jZgGKN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6c77/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b6c77.dir/build.make CMakeFiles/cmTC_b6c77.dir/build
+Building CXX object CMakeFiles/cmTC_b6c77.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_b6c77.dir/src.cxx.o -MF CMakeFiles/cmTC_b6c77.dir/src.cxx.o.d -o CMakeFiles/cmTC_b6c77.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-jZgGKN/src.cxx
+Linking CXX executable cmTC_b6c77
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c77.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b6c77.dir/src.cxx.o -o cmTC_b6c77 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-GBZ3fB
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_64987/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_64987.dir/build.make CMakeFiles/cmTC_64987.dir/build
+Building CXX object CMakeFiles/cmTC_64987.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_64987.dir/src.cxx.o -MF CMakeFiles/cmTC_64987.dir/src.cxx.o.d -o CMakeFiles/cmTC_64987.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-GBZ3fB/src.cxx
+Linking CXX executable cmTC_64987
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64987.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_64987.dir/src.cxx.o -o cmTC_64987 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-g2XFNL
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17bd8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_17bd8.dir/build.make CMakeFiles/cmTC_17bd8.dir/build
+Building CXX object CMakeFiles/cmTC_17bd8.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -MD -MT CMakeFiles/cmTC_17bd8.dir/src.cxx.o -MF CMakeFiles/cmTC_17bd8.dir/src.cxx.o.d -o CMakeFiles/cmTC_17bd8.dir/src.cxx.o -c /Users/hadialzayer/Documents/umd/cs701/hw2/CMakeFiles/CMakeScratch/TryCompile-g2XFNL/src.cxx
+Linking CXX executable cmTC_17bd8
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17bd8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_17bd8.dir/src.cxx.o -o cmTC_17bd8 
+
+
+Source file was:
+int main() { return 0; }
+

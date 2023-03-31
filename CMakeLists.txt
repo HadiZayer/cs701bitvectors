@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.19)
+
+project(CMSC701_Project1)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# add_library(sdsl )
+# target_include_directories(bitvector PUBLIC include)
+add_subdirectory(sdsl-lite)
+add_executable(bitvector src/program.cpp)
+target_include_directories(bitvector PUBLIC include)
+target_link_libraries(bitvector sdsl)
+target_include_directories(bitvector PRIVATE ${CMAKE_BINARY_DIR}/sdsl-lite/include/)
+#target_link_libraries(bitvector PUBLIC lsdsl)
+#target_link_libraries(bitvector PUBLIC ldivsufsort)
+#target_link_libraries(bitvector PUBLIC ldivsufsort64)
+# target_link_libraries(buildsa PUBLIC sais)
+# add_executable(querysa src/querysa.cpp)
+# target_link_libraries(querysa PUBLIC sais)

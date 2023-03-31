@@ -1,0 +1,21 @@
+github link:
+
+The main function and all the classes are implemented in `program.cpp`
+
+Design decisions
+I'm using SDSL-lite for my compact-vector representation. As a side-effect, I cannot use rank_support and select_support as class names, so I'm using my_rank_support and my_class_support instead
+Task-1:
+To simplify serialization, I implemented all the look up tables for jacobson rank with a single large bitvector that acts as a huge lookup table (and the overhead is the size of that bitvector).
+To serialize the rank_support, I serialzie the large lookup bitvector. However, for loading, it didn't make sense to load the look up bitvector without loading the bitvector at the same time, and since we pass the bitvector in initialization, I decided to not implement a load function explicitly, but instead implement an initializer that takes a pre-loaded bitvector, and filename for the serialized ranksupport with the signature `my_rank_vector(sdsl::int_vector<1>* init_bit_vector, std::string& fname)`
+and for the bitvector, I implemented `void save_bitvec(sdsl::int_vector<1>& init_bit_vector, std::string& fname)` and `void load_bitvec(sdsl::int_vector<1>& init_bit_vector, std::string& fname)`
+
+Task-2:
+I used the binary-search method to implement select1. As a result, the select support requires no parameters so saving and loading the select_support would not perform anything since all what it needs is passing a loaded rank_support, as a result I omitted the load and save methods from the select_support class
+
+Task-3:
+for the sparse-array, I set the save and load function signatures to be `void save(std::string& bitvector_fname, std::string& string_elts_fname)` and `void load(std::string& bitvector_fname, std::string& string_elts_fname)` respectively. It made  sense to save the bitvector and the strings list seperately to make since the bitvector can be serialized more efficiently, and I stored the string list with cereal similar to assignment 1.
+
+
+
+Main function:
+in main, I included some test functions that verify that rank is correct (by comparing with the naive O(n) method to find the rank on a bitvector randomly set), as well as testing the load and save functions. I also had several functions for benchmarking there.
