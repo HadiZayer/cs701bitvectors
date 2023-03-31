@@ -1,6 +1,6 @@
 github link: https://github.com/HadiZayer/cs701bitvectors
 
-The main function and all the classes are implemented in `program.cpp`
+The main function and all the classes are implemented in `program.cpp`, and the executable associated with it in the makefile is `bitvector`
 
 Design decisions
 I'm using SDSL-lite for my compact-vector representation. As a side-effect, I cannot use rank_support and select_support as class names, so I'm using my_rank_support and my_class_support instead
